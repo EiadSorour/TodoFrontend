@@ -8,7 +8,7 @@ import Register from "./pages/Register.jsx";
 import Todos from "./pages/Todos.jsx";
 
 const SERVER_API = "https://todobackend-fer1.onrender.com";
-const REACT_PORT = "http://localhost:3000";
+const REACT_PORT = "https://todofrontend-zxd2.onrender.com";
 
 function App(){
     return (
