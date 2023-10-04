@@ -1,0 +1,27 @@
+html, #root, body ,.main{
+    height: 100%;
+}
+
+.width-control{
+    min-width: fit-content;
+    width: 500px;
+}
+
+.login-form{
+    text-align: center;
+}
+
+.trash-icon{
+    color: red;
+}
+
+.test{
+    text-align: center;
+}
+
+.test ul{
+    display: inline-block;
+    text-align: left;
+}
+
+
