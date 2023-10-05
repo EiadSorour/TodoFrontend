@@ -2,9 +2,11 @@ html, #root, body ,.main{
     height: 100%;
 }
 
-.width-control{
-    min-width: fit-content;
-    width: 500px;
+.text-input-control{
+    margin: 0 auto;
+    max-width: 700px;
+    margin-bottom: 5px;
+    border-width: 3px;
 }
 
 .login-form{
@@ -15,13 +17,15 @@ html, #root, body ,.main{
     color: red;
 }
 
-.test{
+.todo-screen{
     text-align: center;
 }
 
-.test ul{
-    display: inline-block;
+.todo-screen ul{
+    margin: 0 auto;
     text-align: left;
+    max-width: 600px;
+    min-width: fit-content;
 }
 
 

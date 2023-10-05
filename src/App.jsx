@@ -10,6 +10,9 @@ import Todos from "./pages/Todos.jsx";
 const SERVER_API = "https://todobackend-fer1.onrender.com";
 const REACT_PORT = "https://todofrontend-zxd2.onrender.com";
 
+// const SERVER_API = "http://localhost:3001";
+// const REACT_PORT = "http://localhost:3000";
+
 function App(){
     return (
         <div className="main">

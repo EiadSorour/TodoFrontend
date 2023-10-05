@@ -54,13 +54,13 @@ function Login(props){
             <div className="position-absolute top-50 start-50 translate-middle login-form">
                 <h1 className="display-5 fw-bold text-body-emphasis mb-3">Login</h1>
 
-                <div className="form-floating mb-3 width-control ">
+                <div className="form-floating mb-3">
                     <input onChange={handleOnChange} name="username" type="text" className="form-control" id="floatingInput" placeholder="Username"/>
-                    <label for="floatingInput">Username</label>
+                    <label htmlFor="floatingInput">Username</label>
                 </div>
-                <div className="form-floating mb-3 width-control">
+                <div className="form-floating mb-3">
                     <input onChange={handleOnChange} name="password" type="password" className="form-control" id="floatingPassword" placeholder="Password"/>
-                    <label for="floatingPassword">Password</label>
+                    <label htmlFor="floatingPassword">Password</label>
                 </div>
                 {showWarning? <p style={{color: "red"}}>Incorrect username or password</p> : <></>}
                 <button className="btn btn-primary btn-lg px-4 mx-5" onClick={handleOnClick} name="login">Login</button>
